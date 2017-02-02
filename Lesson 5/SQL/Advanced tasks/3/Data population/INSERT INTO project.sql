@@ -1,0 +1,11 @@
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('1', 'Businessmens.ru');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('2', 'Bitriks24');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('3', 'YAGLA');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('4', 'Tados');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('5', 'Devicerra');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('6', 'Mushroom AI');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('7', 'THE NN');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('8', 'PRNews');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('9', 'myPreza');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('10', 'SEO-reports');
+INSERT INTO `test`.`project` (`p_Id`, `Name`) VALUES ('11', 'inSearch App');

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://leantesting.com/" />
+<title>TC-LT-005</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC-LT-005</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=FAQ &amp; Help</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>FAQ | Lean Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Bug tracker</td>
+	<td>Bug tracker</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Test cases</td>
+	<td>Test cases</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=In-app bug reporting</td>
+	<td>In-app bug reporting</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=FAQ &amp; Help</td>
+	<td>FAQ &amp; Help</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Pricing</td>
+	<td>Pricing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Testing resources</td>
+	<td>Testing resources</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Sign in</td>
+	<td>Sign in</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Sign up</td>
+	<td>Sign up</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1.blue</td>
+	<td>FAQ &amp; Help</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.icon &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>exact:How do I get started?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p</td>
+	<td>You must first create an account for your organization. Upon doing so, you become the Account Manager. The Account Manager can create Projects and invite users as well as manage their roles and permissions. Create a first project from the dashboard. The Project creation process requires you to specify a version number, the components of the project, and optionally to invite users.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[2]</td>
+	<td>Once you’ve created a project, you and your team can start reporting bugs from the main project view or move along to the Test Suite page to create and manage your test cases.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-14.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[2]/div[2]/h2</td>
+	<td>exact:What are “components”?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[2]/div[2]/p</td>
+	<td>“Components” are essentially pieces of a software product. They can be used in various ways, but their objective is to organize the bugs reported for the project. For example, when we test Lean Testing, we use the following Components:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.text &gt; ul &gt; li</td>
+	<td>Dashboard</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/ul/li[2]</td>
+	<td>Bug list</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/ul/li[3]</td>
+	<td>Report a bug</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/ul/li[4]</td>
+	<td>Project management</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/ul/li[5]</td>
+	<td>Settings</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/ul/li[6]</td>
+	<td>Export</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[7]</td>
+	<td>Search</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[8]</td>
+	<td>Static pages</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[3]</td>
+	<td>This is just an example. You don’t have to use Components this way. You can use them to organize bugs and test cases however you want.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-15-63x51.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[3]/div[2]/h2</td>
+	<td>exact:What are the various roles and how are they different?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[3]/div[2]/p</td>
+	<td>We have recently launched a new feature called Advanced Permissions.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[3]/div[2]/p[2]</td>
+	<td>Advanced Permissions allows you to manage in detail what actions every role can and cannot do. To give you an idea, here are the broad strokes:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[3]/div[2]/p[3]</td>
+	<td>Account Manager: Has all permissions, manages the organization, the users, everything. He’s the king!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[4]</td>
+	<td>Project Manager: Can manage every aspect related to one project. He can invite users, archive projects, delete any bugs, change the status of any bug, etc.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[5]</td>
+	<td>exact:Developer: Can report bugs and update bugs, delete his own bugs, but not other people’s bugs.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[6]</td>
+	<td>exact:Tester: Can report bugs, update bugs and delete his own bugs, but not other people’s bugs (same as “Developer”).</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//p[7]</td>
+	<td>exact:Client: Can report bugs, update bugs and delete his own bugs, but not other people’s bugs (same as “Developer”).</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-16.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[4]/div[2]/h2</td>
+	<td>Inviting contractors</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[4]/div[2]/p</td>
+	<td>As Account Manager, there is an important difference between inviting users to your organization (“Internal users”) and inviting users to specific projects (“External users”).</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[4]/div[2]/p[2]</td>
+	<td>Users that you invite to your organization (“Internal users”) will have access to all of the current and future projects that you create in Lean Testing.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[4]/div[2]/p[3]</td>
+	<td>But users that you invite specifically to one project (“External users”) will only have access to this project and none of your other projects.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[4]/div[2]/p[4]</td>
+	<td>Users can have different roles in different organizations. This means that a user can be a Tester in your organization, but a Project Manager in someone else’s organization, or even have his own organization in Lean Testing, separate from yours.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-17.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[5]/div[2]/h2</td>
+	<td>exact:Can there be two account managers for an account?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[5]/div[2]/p</td>
+	<td>Yes, there can be 2 or more Account Managers for an organization.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-18.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[6]/div[2]/h2</td>
+	<td>exact:Does Lean Testing integrate with other systems?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[6]/div[2]/p</td>
+	<td>Lean Testing currently integrates with Slack, GitHub and Bitbucket.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Slack</td>
+	<td>Slack</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=GitHub</td>
+	<td>GitHub</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Bitbucket</td>
+	<td>Bitbucket</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[6]/div[2]/p[2]</td>
+	<td>Other systems will be added based on the number of requests we get from users.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-19.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[7]/div[2]/h2</td>
+	<td>exact:Can I import issues from another bug tracker / excel / project management software?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[7]/div[2]/p</td>
+	<td>At the moment we do not offer an import option. We will in the future.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-20.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[8]/div[2]/h2</td>
+	<td>exact:Can I export issues to another bug tracker / excel / project management software?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[8]/div[2]/p</td>
+	<td>We provide an export to XLS / CSV function.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-21-55x63.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[9]/div[2]/h2</td>
+	<td>exact:Where is my data hosted?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[9]/div[2]/p</td>
+	<td>We use Amazon Web Services and our servers are located in the US mainland. Data is backed every day.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-23-47x63.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[10]/div[2]/h2</td>
+	<td>exact:What if I have an idea to improve Lean Testing?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[10]/div[2]/p</td>
+	<td>Please submit it in our Forum.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Forum</td>
+	<td>Forum</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-24-63x55.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[11]/div[2]/h2</td>
+	<td>I would like to help translate Lean Testing to my language.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[11]/div[2]/p</td>
+	<td>Thank you, we appreciate your enthusiasm! We’re looking at different solutions to manage translations efficiently and will publish an update to that effect soon.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-25.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[12]/div[2]/h2</td>
+	<td>exact:Is Lean Testing really free?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[12]/div[2]/p</td>
+	<td>Lean Testing is completely free to use and you do not have to provide a credit card to do so.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[12]/div[2]/p[2]</td>
+	<td>There are certain optional features that you can pay for (at a cost of $5 or $10 per month per feature) but you can create as many projects and invite as many users as needed without limitations of any kind.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[contains(@src,'https://leantesting.com/wp-content/uploads/2016/05/icon-01.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[13]/div[2]/h2</td>
+	<td>exact:What is your privacy policy?</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[13]/div[2]/p</td>
+	<td>Our policy is: your projects are not our business. We only collect anonymous information to analyze your usage of our product. For example, we know the number of users in your organization, the total number of bugs reported, the number of projects you’ve created, etc. This helps us figure out how organizations use our product and how we can improve it.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//li[13]/div[2]/p[2]</td>
+	<td>We will never sell or disclose your personal or company information. We encourage you to review our Privacy policy for more information.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.jcf-select-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Terms &amp; conditions</td>
+	<td>Terms &amp; conditions</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Privacy policy</td>
+	<td>Privacy policy</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=API</td>
+	<td>API</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Contact us</td>
+	<td>Contact us</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.copy</td>
+	<td>© 2017 All Rights Reserved Built by Crowdsourced Testing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.by</td>
+	<td>Built by Crowdsourced Testing</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Crowdsourced Testing</td>
+	<td>Crowdsourced Testing</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.icon-facebook</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.icon-twitter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.icon-linkedin-square</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

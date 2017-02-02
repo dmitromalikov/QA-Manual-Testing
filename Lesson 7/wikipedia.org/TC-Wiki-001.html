@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.wikipedia.org/" />
+<title>TC-Wiki-001</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC-Wiki-001</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Wikipedia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=img[alt=&quot;WikipediA&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-ru &gt; strong</td>
+	<td>Русский</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-ja &gt; strong</td>
+	<td>日本語</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-es &gt; strong</td>
+	<td>Español</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-it &gt; strong</td>
+	<td>Italiano</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-pt &gt; strong</td>
+	<td>Português</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-pl &gt; strong</td>
+	<td>Polski</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-zh &gt; strong</td>
+	<td>中文</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-fr &gt; strong</td>
+	<td>Français</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-de &gt; strong</td>
+	<td>Deutsch</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#js-link-box-en &gt; strong</td>
+	<td>English</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=img.central-featured-logo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=searchInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=js-lang-list-button</td>
+	<td>Читайте Википедию на своём языке</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.footer-sidebar-text.jsl10n</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.footer-sidebar-text.jsl10n</td>
+	<td>Википедия управляется Фондом Викимедиа — некоммерческой организацией, которая также управляет рядом других проектов.</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.footer-sidebar-text &gt; strong</td>
+	<td>Wikipedia apps are now available:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.app-badge.app-badge-ios</td>
+	<td>Download for iOS on the App Store</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=App Store</td>
+	<td>App Store</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.app-badge.app-badge-android</td>
+	<td>Download for Android on Google Play</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Google Play</td>
+	<td>Google Play</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=li.app-badge.app-badge-fulllist</td>
+	<td>View full list of available Wikipedia apps</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=list of available Wikipedia apps</td>
+	<td>list of available Wikipedia apps</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Commons-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.other-project-title.jsl10n</td>
+	<td>Викисклад</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikibooks-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[4]/a/div[2]/span</td>
+	<td>Викиучебник</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikiversity-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[7]/a/div[2]/span</td>
+	<td>Викиверситет</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikisource-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[10]/a/div[2]/span</td>
+	<td>Викитека</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikivoyage-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[2]/a/div[2]/span</td>
+	<td>Викигид</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikinews-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[5]/a/div[2]/span</td>
+	<td>Викиновости</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikiquote-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[8]/a/div[2]/span</td>
+	<td>Викицитатник</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikispecies-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[11]/a/div[2]/span</td>
+	<td>Викивиды</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wiktionary-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[3]/a/div[2]/span</td>
+	<td>Викисловарь</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Wikidata-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[6]/a/div[2]/span</td>
+	<td>Викиданные</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-MediaWiki-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[9]/a/div[2]/span</td>
+	<td>MediaWiki</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.sprite-project-logos.sprite-project-logos-Meta-logo_sister</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//body[@id='www-wikipedia-org']/div[6]/div[3]/div[12]/a/div[2]/span</td>
+	<td>Мета-вики</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.site-license &gt; small</td>
+	<td>This page is available under the Creative Commons Attribution-ShareAlike License.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Creative Commons Attribution-ShareAlike License</td>
+	<td>Creative Commons Attribution-ShareAlike License</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Terms of Use</td>
+	<td>Terms of Use</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Privacy Policy</td>
+	<td>Privacy Policy</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
